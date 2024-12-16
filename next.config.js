@@ -7,4 +7,15 @@ import "./src/env.js";
 /** @type {import("next").NextConfig} */
 const config = {};
 
+config.images = {
+    remotePatterns: [
+        {
+            protocol: 'https',
+            hostname: 'vandelay-assets.s3.us-east-1.amazonaws.com',
+            port: '',
+            pathname: '/**',
+            search: '',
+        },
+    ],
+};
 export default config;
