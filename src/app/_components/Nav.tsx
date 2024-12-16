@@ -14,7 +14,6 @@ export default function Nav() {
     return (
         <nav className="bg-gray-800 p-4">
             <div className="container mx-auto flex justify-between items-center">
-                {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <Image
                         src="https://vandelay-assets.s3.us-east-1.amazonaws.com/Vandelay_Industries.webp"
@@ -27,7 +26,6 @@ export default function Nav() {
                     </div>
                 </div>
 
-                {/* Hamburger Menu */}
                 <button
                     onClick={toggleMenu}
                     className="block md:hidden text-gray-300 hover:text-white focus:outline-none"
@@ -48,8 +46,6 @@ export default function Nav() {
                         )}
                     </svg>
                 </button>
-
-                {/* Navigation Links */}
                 <ul
                     className={`absolute top-16 left-0 w-full bg-gray-800 md:static md:flex md:space-x-4 md:w-auto transition-all duration-300 ease-in-out ${
                         isOpen ? 'block' : 'hidden'
