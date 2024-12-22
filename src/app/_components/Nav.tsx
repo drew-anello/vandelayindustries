@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-
+import Costanza from '../costanza/page';
 export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -52,8 +52,8 @@ export default function Nav() {
                     }`}
                 >
                     <li className="border-b border-gray-700 md:border-none">
-                        <Link href="/about" className="block px-4 py-2 text-gray-300 hover:text-white">
-                            About
+                        <Link href="/costanza" className="block px-4 py-2 text-gray-300 hover:text-white">
+                            Costanza API
                         </Link>
                     </li>
                     <li className="border-b border-gray-700 md:border-none">
