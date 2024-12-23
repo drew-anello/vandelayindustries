@@ -5,6 +5,7 @@ import { type Metadata } from "next";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import Nav from "./_components/Nav";
+import Footer from "./_components/Footer";
 
 export const metadata: Metadata = {
   title: "Vandelay Industries",
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body>
         <Nav />
         <TRPCReactProvider>{children}</TRPCReactProvider>
+        <Footer />
       </body>
     </html>
   );
