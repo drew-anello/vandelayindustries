@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Costanza from '../costanza/page';
 export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);
 

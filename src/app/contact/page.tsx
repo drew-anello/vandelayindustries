@@ -14,7 +14,7 @@ export default function Contact() {
                 <section className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
                     <h2 className="text-3xl font-bold mb-4 text-gray-800">Get in Touch</h2>
                     <p className="text-gray-600 leading-relaxed mb-6">
-                        Reach out to us via LinkedIn or GitHub. Whether you're looking to collaborate or simply connect, we'd love to hear from you!
+                        Reach out to us via LinkedIn or GitHub. Whether you&apos;re looking to collaborate or simply connect, we&apos;d love to hear from you!
                     </p>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">

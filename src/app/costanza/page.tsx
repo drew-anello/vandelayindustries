@@ -1,7 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
 
-import { api, HydrateClient } from "~/trpc/server";
+import { HydrateClient } from "~/trpc/server";
 
 export default async function Costanza() {
     return (
