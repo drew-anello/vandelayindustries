@@ -56,11 +56,7 @@ export default function Nav() {
                             Costanza API
                         </Link>
                     </li>
-                    <li className="border-b border-gray-700 md:border-none">
-                        <Link href="/services" className="block px-4 py-2 text-gray-300 hover:text-white">
-                            Services
-                        </Link>
-                    </li>
+                 
                     <li className="border-b border-gray-700 md:border-none">
                         <Link href="/contact" className="block px-4 py-2 text-gray-300 hover:text-white">
                             Contact
